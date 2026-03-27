@@ -42,23 +42,6 @@ url('bg.jpg') center/cover no-repeat;
 position:relative;
 }
 
-<section>
-  <div class="grid">
-    <div>
-      <h2 id="count1">0</h2>
-      <p>Neukunden</p>
-    </div>
-    <div>
-      <h2 id="count2">0</h2>
-      <p>Vertriebspartner</p>
-    </div>
-    <div>
-      <h2 id="count3">0</h2>
-      <p>Projekte</p>
-    </div>
-  </div>
-</section>
-
 .hero::after{
 content:"";
 position:absolute;
@@ -195,8 +178,6 @@ transform:translateY(0) scale(1);
 
 <script>
 
-// Scroll Animation
-const elements = document.querySelectorAll('.hidden');
 
 window.addEventListener('scroll', () => {
 elements.forEach(el => {
